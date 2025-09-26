@@ -1,3 +1,5 @@
+import sys
+print("✅ Python iniciado com versão:", sys.version)
 from telethon import TelegramClient, events
 from pydrive.auth import GoogleAuth
 from pydrive.drive import GoogleDrive
@@ -37,3 +39,4 @@ async def handler(event):
 print("🔄 Iniciando...")
 client.start(PHONE)  # primeira vez vai pedir o código do Telegram
 client.run_until_disconnected()
+
