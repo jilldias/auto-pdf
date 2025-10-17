@@ -1,9 +1,9 @@
 from telethon import TelegramClient
 
 # --- Suas credenciais do Telegram ---
-API_ID = 27608582
-API_HASH = "a62236403c55f4161ee313e2e5d9ec90"
-PHONE = "+5518997048942"  # exemplo: +5511999999999
+API_ID = 
+API_HASH = ""
+PHONE = ""  # exemplo: +5511999999999
 
 client = TelegramClient("sessao", API_ID, API_HASH)
 
@@ -13,3 +13,4 @@ async def main():
 
 with client:
     client.loop.run_until_complete(main())
+
