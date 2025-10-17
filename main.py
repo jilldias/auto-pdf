@@ -6,12 +6,12 @@ from pydrive.drive import GoogleDrive
 import os
 
 # --- Suas credenciais do Telegram ---
-API_ID = 27608582  # substitua pelo seu
-API_HASH = "a62236403c55f4161ee313e2e5d9ec90"
-PHONE = "+5518997048942"  # exemplo: +5511999999999
+API_ID =   # substitua pelo seu
+API_HASH = ""
+PHONE = ""  # exemplo: +5511999999999
 
 # --- Sua pasta no Google Drive ---
-FOLDER_ID = "12q8Nhm6-ccm6WaOGQxTiYMe_YxevaMQ4"  # copie da URL da pasta
+FOLDER_ID = ""  # copie da URL da pasta
 
 # --- Login no Google Drive ---
 gauth = GoogleAuth()
@@ -39,4 +39,5 @@ async def handler(event):
 print("🔄 Iniciando...")
 client.start(PHONE)  # primeira vez vai pedir o código do Telegram
 client.run_until_disconnected()
+
 
